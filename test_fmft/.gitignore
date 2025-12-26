@@ -1,0 +1,89 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+**/generated_plugin_registrant.dart
+**/generated_plugin_registrant.cc
+**/generated_plugin_registrant.h
+**/GeneratedPluginRegistrant.swift
+**/GeneratedPluginRegistrant.m
+**/GeneratedPluginRegistrant.java
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.moved-aside
+DerivedData/
+.generated/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Platform-specific build folders
+/android/build/
+/ios/build/
+/macos/build/
+/linux/build/
+/windows/build/
+/web/build/
+
+# iOS/macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Flutter/ephemeral/
+
+# Windows
+**/windows/flutter/ephemeral/
+
+# Linux
+**/linux/flutter/ephemeral/
+
+# Web
+.firebase/
